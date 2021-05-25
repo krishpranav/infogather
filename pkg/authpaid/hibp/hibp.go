@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/krishpranav/infogather/http"
+	"github.com/krishpranav/infogather/internal/http"
 )
 
 // BreachList is a representation of the names of site breaches returned by the GetBreaches() function.
