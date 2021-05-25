@@ -139,7 +139,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/maraudery/omniscient/pkg/authpaid/hibp"
+	"github.com/krishpranav/infogather/pkg/authpaid/hibp"
 )
 
 func main() {
