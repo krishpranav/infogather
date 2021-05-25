@@ -1,4 +1,4 @@
-package https
+package http
 
 import (
 	"io/ioutil"
@@ -27,7 +27,6 @@ func AuthGet(url string, authkey string, authval string) ([]byte, error) {
 	if err != nil {
 		return nil, err
 	}
-
 	req.Header.Add(authkey, authval)
 
 	res, err := client.Do(req)
