@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/maraudery/krishpranav/infogather/config"
-	"github.com/maraudery/krishpranav/infogather/http"
+	"github.com/krishpranav/infogather/config"
+	"github.com/krishpranav/infogather/http"
 )
 
 func TestEmailLookup(t *testing.T) {
